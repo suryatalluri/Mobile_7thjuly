@@ -1,0 +1,23 @@
+<wm-page data-ng-controller="login11PageController"> 
+    <wm-content> 
+        <wm-page-content columnwidth="12"> 
+            <wm-login name="login1" paddingtop="1" paddingleft="1" paddingbottom="1" paddingright="1" paddingunit="em"> 
+                <wm-layoutgrid name="layoutgrid1"> 
+                    <wm-gridrow name="gridrow1"> 
+                        <wm-gridcolumn name="gridcolumn1"> 
+                            <wm-text placeholder="Email" name="usernametext" class="app-login-username" updateon="default" height="40" borderstyle="solid" margintop="1" marginbottom="0.5"></wm-text> 
+                        </wm-gridcolumn> 
+                    </wm-gridrow> 
+                    <wm-gridrow name="gridrow2"> 
+                        <wm-gridcolumn name="gridcolumn2"> 
+                            <wm-text type="password" name="passwordtext" placeholder="Password" class="app-login-password" updateon="default" height="40" borderstyle="solid" margintop="0.5" marginbottom="1"></wm-text> 
+                        </wm-gridcolumn> 
+                    </wm-gridrow> 
+                </wm-layoutgrid> 
+                <wm-button type="submit" caption="Sign in" width="100%" class="app-login-button btn-primary btn-lg" name="button5" margintop="1" marginunit="em"></wm-button> 
+                <wm-checkbox class="pull-left" scopedatavalue="user.rememberMe" name="checkbox1" caption="Remember Me"></wm-checkbox> 
+                <wm-anchor caption="Forgot Password ?" class="pull-right" name="anchor1" margintop="1.25" marginbottom="1.25" marginunit="em"></wm-anchor> 
+            </wm-login> 
+        </wm-page-content> 
+    </wm-content> 
+</wm-page>
